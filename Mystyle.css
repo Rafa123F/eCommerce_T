@@ -127,12 +127,12 @@ body {
     left: 20px;
 }
 
-#mobile{
+#mobile {
     display: none;
     align-items: center;
 }
 
-#close{
+#close {
     display: none;
 }
 
@@ -514,12 +514,12 @@ footer .follow i {
 footer .install .row img {
     border: 1px solid #088178;
     border-radius: 6px;
-   width: 150px;
+    width: 150px;
 }
 
 footer .install img {
     margin: 10px 0 15px 0;
-   width: 250px;
+    width: 250px;
 }
 
 footer .follow i:hover,
@@ -615,7 +615,7 @@ footer .copyright {
     transition: 0.3s;
 }
 
-#blog .blog-details a::after{
+#blog .blog-details a::after {
     content: "";
     width: 50px;
     height: 1px;
@@ -625,15 +625,15 @@ footer .copyright {
     right: -60px;
 }
 
-#blog .blog-details a:hover{
+#blog .blog-details a:hover {
     color: #088178;
 }
 
-#blog .blog-details a:hover::after{
+#blog .blog-details a:hover::after {
     background-color: #088178;
 }
 
-#blog .blog-box h1{
+#blog .blog-box h1 {
     position: absolute;
     top: -40px;
     left: 0;
@@ -688,7 +688,7 @@ footer .copyright {
     margin-bottom: 10px;
 }
 
-#prodetails .single-pro-details input{
+#prodetails .single-pro-details input {
     width: 50px;
     height: 47px;
     padding-left: 10px;
@@ -696,16 +696,16 @@ footer .copyright {
     margin-right: 10px;
 }
 
-#prodetails .single-pro-details input:focus{
-    outline:none;
+#prodetails .single-pro-details input:focus {
+    outline: none;
 }
 
-#prodetails .single-pro-details button{
+#prodetails .single-pro-details button {
     background: #088178;
     color: #fff;
 }
 
-#prodetails .single-pro-details span{
+#prodetails .single-pro-details span {
     line-height: 25px;
 }
 
@@ -727,25 +727,88 @@ footer .copyright {
     height: auto;
 }
 
-#about-head div{
+#about-head div {
     padding-left: 40px;
 }
 
-#about-app{
+#about-app {
     text-align: center;
 }
 
-#about-app .video{
+#about-app .video {
     width: 70%;
     height: 100%;
     margin: 30px auto 0 auto;
 }
 
-#about-app .video video{
+#about-app .video video {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
+
+
+
+/*////////////    Contact page     ////////////////*/
+
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details {
+    width: 40%;
+}
+
+#contact-details .details span {
+    font-size: 12px;
+}
+
+#contact-details .details h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i {
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#form-details form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 
 
 /*////// Media Query ////////*/
@@ -771,15 +834,15 @@ footer .copyright {
         transition: 0.3s;
     }
 
-    #navbar.active{
+    #navbar.active {
         right: 0px;
     }
 
-    #navbar li{
+    #navbar li {
         margin-bottom: 25px;
     }
 
-    #mobile{
+    #mobile {
         display: flex;
         align-items: center;
     }
@@ -790,7 +853,7 @@ footer .copyright {
         padding-left: 20px;
     }
 
-    #close{
+    #close {
         display: initial;
         position: absolute;
         top: 30px;
@@ -799,7 +862,7 @@ footer .copyright {
         font-size: 24px;
     }
 
-    #lg-bag{
+    #lg-bag {
         display: none;
     }
 
@@ -848,7 +911,8 @@ footer .copyright {
 
 
 }
-@media (max-width: 477px){
+
+@media (max-width: 477px) {
     .section-p1 {
         padding: 20px;
     }
@@ -878,6 +942,7 @@ footer .copyright {
         width: 155px;
         margin: 0 0 15px 0;
     }
+
     #product1 .pro {
         width: 100%;
     }
@@ -891,7 +956,7 @@ footer .copyright {
     }
 
     #sm-bonner .banner-box2 {
-    margin-top: 20px;   
+        margin-top: 20px;
     }
 
     #banner3 {
@@ -915,7 +980,7 @@ footer .copyright {
     }
 
 
-   
+
     /*///////// Single product page  //////////////*/
 
     #prodetails {
@@ -943,7 +1008,7 @@ footer .copyright {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        
+
     }
 
     #blog .blog-img {
