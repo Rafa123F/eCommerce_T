@@ -6,7 +6,5 @@ you can check it by yourself, right here:
 https://www.youtube.com/@Tech2etc/videos
 
 
-i am at this stage right now :
-https://www.youtube.com/watch?v=7rZjQNkIQWg&t=15s  
 
 
