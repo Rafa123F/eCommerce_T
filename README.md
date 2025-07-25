@@ -11,8 +11,8 @@ https://www.youtube.com/@Tech2etc/videos
 
 Some screenshot of the website:
 
-![Screenshot of Personal Blog Website](img/Screenshot1.png)
-![Screenshot of Personal Blog Website](img/Screenshot2.png)
-![Screenshot of Personal Blog Website](img/Screenshot3.png)
-![Screenshot of Personal Blog Website](img/Screenshot4.png)
-![Screenshot of Personal Blog Website](img/Screenshot5.png)
+![Screenshot of E-Commerce Website](img/Screenshot1.png)
+![Screenshot of E-Commerce Website](img/Screenshot2.png)
+![Screenshot of E-Commerce Website](img/Screenshot3.png)
+![Screenshot of E-Commerce Website](img/Screenshot4.png)
+![Screenshot of E-Commerce Website](img/Screenshot5.png)
